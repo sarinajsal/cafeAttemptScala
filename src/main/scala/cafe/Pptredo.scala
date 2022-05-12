@@ -60,14 +60,22 @@ object Pptredo extends App {
 
 
   def billWithService(menuItems: List[MenuItems]): Double = {
-    val hasfood = menuItems.contains(cheeseSandwhich,steakSandwhich)
-    if hasfood
-     val wFoodbill = (menuItems.map(menuItems => menuItems.price)).sum * 1.2
-   else
-      val bill = menuItems.map(menuItems => menuItems.price).sum
-      bill
+    val x = menuItems.map(menuItems => menuItems.price).sum
+    if (menuItems.contains(List(cheeseSandwhich, steakSandwhich))) {
+      val y = x * 1.2
+      y
+      3.12
+    } else {
+      x
+      4.12
+    }
   }
 
+  val a: List[MenuItems] = List(cheeseSandwhich, cola)
+  val b = a.contains(cheeseSandwhich)
+  println(b)
+
+  println(billWithService(List(cheeseSandwhich, steakSandwhich)))
 
 
 
@@ -87,4 +95,4 @@ object Pptredo extends App {
 
 
 
-}
+
