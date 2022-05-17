@@ -94,6 +94,9 @@ object Pptredo extends App {
 //      case "cheesesandwhich" => "cheeseSandwhich"
 //      case "cola" =>
 //    }
+
+  val bt= 1*0.2.ceil
+  println(bt)
   }
 
 
