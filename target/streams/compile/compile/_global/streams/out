@@ -1,0 +1,10 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/vinniebrice/grads/Sarinas_work/cafeAttemptScala/src/main/scala/cafe/AttemptUsingSealedTraits.scala:24:5: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Food[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ft match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/vinniebrice/grads/Sarinas_work/cafeAttemptScala/src/main/scala/cafe/Practice.scala:22:5: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Wednesday[0m
+[0m[[0m[33mwarn[0m] [0m[0m    weekday match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m

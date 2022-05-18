@@ -1,0 +1,22 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/vinniebrice/grads/Sarinas_work/cafeAttemptScala/src/test/scala/cafe/AttemptTwoSpec.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.matchers.must.Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vinniebrice/grads/Sarinas_work/cafeAttemptScala/src/test/scala/cafe/AttemptTwoSpec.scala:4:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.wordspec.AnyWordSpec[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vinniebrice/grads/Sarinas_work/cafeAttemptScala/src/test/scala/cafe/AttemptTwoSpec.scala:7:30: not found: type AnyWordSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass AttemptTwoSpec extends AnyWordSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vinniebrice/grads/Sarinas_work/cafeAttemptScala/src/test/scala/cafe/AttemptTwoSpec.scala:7:47: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass AttemptTwoSpec extends AnyWordSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vinniebrice/grads/Sarinas_work/cafeAttemptScala/src/test/scala/cafe/AttemptTwoSpec.scala:9:10: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  "bill" should {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vinniebrice/grads/Sarinas_work/cafeAttemptScala/src/test/scala/cafe/AttemptTwoSpec.scala:10:24: value in is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "return a message" in {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/vinniebrice/grads/Sarinas_work/cafeAttemptScala/src/test/scala/cafe/AttemptTwoSpec.scala:13:22: value in is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "return a error" in {[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m

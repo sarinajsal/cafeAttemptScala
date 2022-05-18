@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(cafe.AttemptTwoSpec, org.scalatest.tools.Framework$$anon$1@79ecb0fd, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAttemptTwoSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mbill[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return a message vb *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "6) Your bill is 0.00" was not equal to 0 (AttemptTwoSpec.scala:11)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 6 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	cafe.AttemptTwoSpec[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m

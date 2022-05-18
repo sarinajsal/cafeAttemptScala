@@ -10,6 +10,9 @@ object AttemptUsingSealedTraits extends App{
   case object Drink extends foodType
   case object Food extends foodType
 
+  sealed trait Allergen
+  case object Nuts extends Allergen
+
   case class MenuItems(val name: String, temp: AttemptUsingSealedTraits.temp, val price: Double, foodType: AttemptUsingSealedTraits.foodType)
 
   val cola = MenuItems("cola", temp = Cold, 0.50, foodType = Drink)
